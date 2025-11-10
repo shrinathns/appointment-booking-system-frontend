@@ -2,6 +2,9 @@
 
 A modern web application built with React for managing and booking appointments efficiently. This system provides an intuitive interface for users to schedule, view, and manage appointments.
 
+## Working URL
+[Live Demo](https://master.d30ppjnpzvtoxs.amplifyapp.com/)
+
 ## Features
 
 - 📅 Calendar View for appointment scheduling
@@ -50,28 +53,13 @@ A modern web application built with React for managing and booking appointments 
    npm install
    ```
 
-3. **Environment Setup**
-   - Create a `.env` file in the root directory:
-     ```bash
-     cp .env.example .env
-     ```
-   - Update the API endpoint in `.env` if needed:
-     ```
-     REACT_APP_API_URL=http://localhost:3001
-     ```
-
-4. **Start Development Server**
+3. **Start Development Server**
    ```bash
    npm start
    ```
    - The application will open at [http://localhost:3000](http://localhost:3000)
    - The page will automatically reload when you make changes
    - Any lint errors will appear in the console
-
-5. **Running Tests**
-   ```bash
-   npm test
-   ```
 
 ### Common Issues and Solutions
 
